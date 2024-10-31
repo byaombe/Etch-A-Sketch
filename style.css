@@ -3,7 +3,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hotpink;
+    background-color: rgb(51, 57, 10);
+    gap: 10px;
+}
+.btn1 {
+    background-color: #333;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-size: 15px;
 }
 #grid-here {
     display: flex;
@@ -12,7 +21,7 @@ body {
     height: 256px;
     border: 1px solid #333;
 
-}.grid-squares {
+}.grid-square  {
     width: 16px;
     height: 16px;
     box-sizing: border-box;
